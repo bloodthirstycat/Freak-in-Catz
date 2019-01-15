@@ -1,6 +1,83 @@
 <html>
+<html lang="en">
 <head>
+  <title>Freak'in Catz by Bloodthirsty Cat Studio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	#footer {
+	position: fixed;
+	height: 40px;
+	bottom: 0;
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="https://bloodthirstycat.github.io">Bloodthirsty Cat</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="https://bloodthirstycat.github.io/o_nas.html">O nas</a></li>
+        <li><a href="https://bloodthirstycat.github.io/nasze_projekty.html">Projekty</a></li>
+        <li><a href="https://bloodthirstycat.github.io/kontakt.html">Kontakt</a></li>
+		<li class="active"><a href="#">Freak'in Catz</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.facebook.com/bloodthistycat/"><span class="glyphicon glyphicon-log-in"></span> Fanpage FB</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+ <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/eggplant/jquery-ui.css">
 <script>
 function check(){
 	for(i = 0;i<localStorage.bylo.split(";").length;i++){
@@ -46,11 +123,30 @@ Lista odkrytych zakończeń:<br>
 <INPUT TYPE=CHECKBOX id="zak13" DISABLED> ZAKOŃCZENIE 13<br>
 <INPUT TYPE=CHECKBOX id="zak14" DISABLED> ZAKOŃCZENIE 14 (FINAŁOWE)<br>
 </div>
+<a style="color: red;" href=Freak-in-Catz.html>Wróć do gry</a><br>
+<a href="Freak-in-Catz.html" style="text-align: center; color: red;" onClick="zerujID();">Rozpocznij grę od nowa</a><br>
 </center>
-</body>
-<a style="margin-left: 20cm;color: red;" href=Freak-in-Catz.html>Wróć do gry</a><br><br>
+
+
+</center>
+
 <footer class="container-fluid text-center">
-  <p>Freak'in Catz: Piece of Polish Internet - 1st game ever! BETA v3<br>
+<style>
+body{
+	background-color: #353638;
+}
+</style>
+
+<title>Freak'in Catz: Piece of Polish Internet - 1st game ever! BETA v3</title>
+</head>
+
+ </div>
+   
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+ <p>Freak'in Catz: Piece of Polish Internet - 1st game ever! BETA v3<br>
 Bloodthirsty Cat &copy<br>
 Pomysł i pomoc w implementacji:: BadOmen<br>
 Programista: Robercik101</br>
